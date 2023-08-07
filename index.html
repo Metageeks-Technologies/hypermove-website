@@ -106,7 +106,7 @@
             <img src="images/logo-1600.png" alt="" class="hero-logo img-fluid">
             <div class="d-flex flex-row justify-content-center">
                 <a href="https://zhft73u3azp.typeform.com/to/egjRZkmN" target="_blank" role="button" tabindex="0" class="round-btn btn btn-sm btn-secondary mx-1 btn-purple">Join Waitlist</a>
-                <a href="#" role="button" tabindex="0" class="round-btn btn btn-sm btn-dark mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Watch Trailer</a>
+                <a href="https://forms.gle/ZXCp3XiXFDYp6yb36" role="button" tabindex="0" class="round-btn btn btn-sm btn-dark mx-1" target="_blank" >Private Sale</a>
             </div>
         </div>
         </div>   
@@ -177,7 +177,9 @@
         
         <p class="text-white">Experience the thrill of battle in our high-quality graphics and stunningly immersive gameplay. With our state-of-the-art game engine, you'll feel like you're right in the middle of the action.</p> 
         
-        <img src="images/aaa.png" alt="" class="img-fluid py-5"> 
+        <a role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="images/aaa.png" alt="" class="img-fluid py-5"> 
+        </a>
 
         <p class="text-white w-75 m-auto">Our AAA gaming series is designed to challenge your skills and strategy, with unique features and weapons that you won't find in any other Battle Royale game. Whether you're a seasoned gamer or just starting out, Invictus Legend has something for everyone.</p> 
     </div>
@@ -639,7 +641,7 @@
 <a href="#" class="btn btn-light round-btn">Join The Revolution</a>
 <div class="social-icons text-center py-md-5 grid gap-5">
     <a href="https://discord.gg/mMWPVXxAXK" target="_blank" class="icon opacity-25 text-white p-2"><i class="fa-brands fa-discord fa-2xl"></i></a>    
-    <a href="https://twitter.com/hypermove_io" target="_blank" class="icon opacity-25 text-white p-2"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+    <a href="https://twitter.com/hypermove" target="_blank" class="icon opacity-25 text-white p-2"><i class="fa-brands fa-twitter fa-2xl"></i></a>
     <a href="https://t.me/Hypermove_io" target="_blank" class="icon opacity-25 text-white p-2"><i class="fa-brands fa-telegram fa-2xl"></i></a>
 </div>
 </footer>
@@ -673,5 +675,11 @@
 <!-- <script src="scroll-entrance.js"></script> -->
 <script src="jquery.hoverplay.js"></script>
 <script src="main.js"></script>
+<script>
+    $('.modal').on('hide.bs.modal', function() {
+     var memory = $(this).html();
+     $(this).html(memory);
+});
+</script>
 </body>
 </html>

@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Nevan';
     src: local('Nevan'),
-         url('./fonts/Nevan.ttf') format('truetype'),
-         url('./fonts/Nevan.otf') format('otf');     
+         url('../fonts/Nevan.ttf') format('truetype'),
+         url('../fonts/Nevan.otf') format('otf');     
 }
 
 @font-face {
     font-family: 'Druk';
     src: local('Druk'),
-         url('./fonts/Druk.ttf') format('truetype');  
+         url('../fonts/Druk.ttf') format('truetype');  
     font-weight: bold;
 }
 
